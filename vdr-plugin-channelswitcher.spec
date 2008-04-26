@@ -2,7 +2,7 @@
 %define plugin	channelswitcher
 %define name	vdr-plugin-%plugin
 %define version	0.0.1b
-%define rel	12
+%define rel	13
 
 Summary:	VDR plugin: Channel.conf Switcher
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://www.freewebs.com/sadhome/
 Source:		http://www.freewebs.com/sadhome/Plugin/Channelswitcher/vdr-%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -22,6 +22,7 @@ configurations. One can change between different channel.conf.*.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
