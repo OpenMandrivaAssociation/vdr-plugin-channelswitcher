@@ -2,7 +2,7 @@
 %define plugin	channelswitcher
 %define name	vdr-plugin-%plugin
 %define version	0.0.1b
-%define rel	15
+%define rel	16
 
 Summary:	VDR plugin: Channel.conf Switcher
 Name:		%name
