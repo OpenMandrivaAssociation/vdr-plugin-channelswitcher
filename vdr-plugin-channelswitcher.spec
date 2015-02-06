@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Channel.conf Switcher
 Name:		vdr-plugin-%plugin
 Version:	0.0.1b
-Release:	17
+Release:	18
 Group:		Video
 License:	GPL
 URL:		http://www.freewebs.com/sadhome/
