@@ -6,7 +6,7 @@ Version:	0.0.1b
 Release:	19
 Group:		Video
 License:	GPL
-URL:		http://www.freewebs.com/sadhome/
+URL:		https://www.freewebs.com/sadhome/
 Source:		http://www.freewebs.com/sadhome/Plugin/Channelswitcher/vdr-%plugin-%version.tar.bz2
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
